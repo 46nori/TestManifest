@@ -2,12 +2,12 @@
 <manifest>
   <remote fetch="https://github.com/Open-TEE/" name="origin" />
   <default remote="origin" revision="master" />
-  <project name="project" path="project" >
-    <copyfile src="opentee" dest="opentee" />
+  <project name="project" path="tmp/project" >
+    <copyfile src="project/opentee" dest="opentee" />
   </project>
   <project name="tee-engine" path="emulator" />
   <project name="libtee" path="libtee" />
   <project name="TAs" path="tmp/TAs">
-    <copyfile src="include" dest="TAs/include" />
+    <copyfile src="include/tee_ta_properties.h" dest="TAs/include/tee_ta_properties.h" />
   </project>
 </manifest>
