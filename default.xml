@@ -7,5 +7,5 @@
   </project>
   <project name="tee-engine" path="emulator" />
   <project name="libtee" path="libtee" />
-  <project name="TAs" path="TAs/include" />
+  <project name="TAs/include" path="TAs/include" />
 </manifest>
